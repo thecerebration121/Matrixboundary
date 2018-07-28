@@ -39,7 +39,8 @@ public class Solution {
 		//System.out.println(sumCalculate(matrixInput , rows ,cols));
 	
 	}
-	
+
+//creates a hashmap of all submatrices with their boundary sum	
 	public static int findSubmatrix(int[][] matrix , int rows , int cols , int subsize)
 	{
 		int i=0 , j=0 , k=0 , l=0;
